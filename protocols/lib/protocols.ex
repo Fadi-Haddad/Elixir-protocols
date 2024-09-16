@@ -22,3 +22,10 @@ defmodule Cat do
     end
   end
 end
+def Main do
+  def run do
+    dog= %Dog{}
+    cat= %Cat{}
+  end
+  
+end
