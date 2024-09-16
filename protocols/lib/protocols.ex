@@ -13,4 +13,12 @@ defmodule Dog do
   end
 end
 
+defmodule Cat do
+  defstruct []
 
+  defimpl Speak do
+    def speak(_animal) do
+      "Mewo"
+    end
+  end
+end
